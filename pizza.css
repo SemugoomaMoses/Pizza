@@ -2,6 +2,7 @@ body{
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
     background-color: #282424;
+    color: white;
 
 }
 
@@ -11,16 +12,27 @@ body{
     background-size: cover;
     height: 650px;
     color: white;
+    padding-top: 1px;
     
 }
 #tortenetunk{
     background-color: #282424;
     color: white;
+    text-align: center;
 }
 #menu{
     background-color: #101010;
     color: white;
     text-align: center;
+}
+#specialitasaink{
+    text-align: center;
+}
+#kiscim{
+    font-family: "Playfair Display", serif;
+}
+p{
+    font-family: "Roboto", sans-serif;
 }
 li{
     display: inline;
@@ -33,4 +45,15 @@ li a{
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+}
+ul{
+    height: 40px;
+    margin-top: 70px;
+}
+h1{
+    width: 203;
+    padding-left: 50px;
+    padding-top: 50px;
+    float: left;
+    font-weight: 100;
 }
