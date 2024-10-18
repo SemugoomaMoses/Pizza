@@ -18,15 +18,29 @@ body{
 #tortenetunk{
     background-color: #282424;
     color: white;
-    text-align: center;
+
+    
+    
+}
+#bal_szoveg{
+    float: left;
+    display: inline;
+    margin-left: 800px;
+}
+#jobb_szoveg{
+    float: right;
+    display: inline;
+    margin-left: 900px;
+    margin-top: -100px;
+    
 }
 #menu{
     background-color: #101010;
     color: white;
-    text-align: center;
+   
 }
 #specialitasaink{
-    text-align: center;
+
 }
 #kiscim{
     font-family: "Playfair Display", serif;
@@ -56,4 +70,20 @@ h1{
     padding-top: 50px;
     float: left;
     font-weight: 100;
+    text-align: right;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    margin-left: -155px;
+    padding-right: 940px;
+    
+}
+h3{
+    margin-left: -40px;
+    padding-right: 930px;
+}
+#szam{
+    text-align: right;
+    
 }
