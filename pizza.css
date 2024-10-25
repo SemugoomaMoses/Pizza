@@ -3,6 +3,8 @@ body{
     padding: 0px 0px 0px 0px;
     background-color: #282424;
     color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
 
 }
 
@@ -15,9 +17,15 @@ body{
     padding-top: 1px;
     
 }
+ #kezd{
+    font-weight: bold;
+}
 #tortenetunk{
     background-color: #282424;
     color: white;
+    padding-bottom: 280px;
+    font-size: 20px;
+    padding-top: 40px;
 
     
     
@@ -25,37 +33,44 @@ body{
 #bal_szoveg{
     float: left;
     display: inline;
-    margin-left: 800px;
+    margin-left: 700px;
 }
 #jobb_szoveg{
     float: right;
     display: inline;
     margin-left: 900px;
-    margin-top: -100px;
+    margin-top: -130px;
     margin-right: 400px;
+    font-size: 20px;
+    margin-right: 300px;
     
 }
-#szam{}
+#kiscim{
+    font-family: "Playfair Display", serif;
+    margin-left: 10px;
+}
+#szam{
+    float: left;
+    font-weight: bold;
+    font-size: 15px;
+}
 #menu{
     background-color: #101010;
     color: white;
     clear: both;
     text-align: center;
+    padding-bottom: 60px;
+    
    
-}
-h4{
-
 }
 #szoveg2{
     margin: auto;
-    width: 500px;
+    width: 600px;
 }
 #fels{
     
 }
-#kiscim{
-    font-family: "Playfair Display", serif;
-}
+
 p{
     font-family: "Roboto", sans-serif;
 }
@@ -73,14 +88,21 @@ p{
     margin-top: 78px;
     padding-left: 1400px;
 }
+#menu ul{
+    margin-top: 50px;
+}
 #menu li{
     text-decoration: none;
     display: inline;
-    border: 1px;
-    border-color: white;
+    border: 1px solid white;
+    padding: 20px 80px 20px 80px;
+    width: 50px;
+    margin-top: 50px;
+    margin: 20px;
+
 }
 h1{
-    width: 203;
+    width: 200px;
     padding-left: 50px;
     padding-top: 50px;
     float: left;
@@ -92,13 +114,36 @@ h2{
     font-weight: 100;
     margin-left: -155px;
     padding-right: 940px;
+    width: 300px;
+    font-weight: bold;
     
 }
 h3{
     margin-left: -40px;
     padding-right: 930px;
+    font-weight: 100;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
 }
-#szam{
-    text-align: right;
+h4{
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: -10px;
+    }
+h5{
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+}
+#specialitasaink{
+    clear: both;
     
 }
+#szöveg{
+    padding-top: 30px;
+}
+#specialitasaink p{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
