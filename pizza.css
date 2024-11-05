@@ -137,6 +137,8 @@ h5{
 }
 #specialitasaink{
     clear: both;
+    width: 65%;
+    margin: auto;
     
 }
 #szöveg{
@@ -145,5 +147,28 @@ h5{
 #specialitasaink p{
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
+
+}
+#speckis{
+    margin-top: -30px;
+}
+#bal_kepek{
+    width: 70%;
+}
+#kep1{
+    background-image:url(Képek/fejlec.jpg) ;
+    height: 500px;
+   
+    background-position: center center;
+    background-size: cover;
+    
+    
+
+    
+}
+#gomba{
+    height: 300px;
+    float: left;
+    
 }
 
