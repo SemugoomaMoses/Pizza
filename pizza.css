@@ -153,22 +153,89 @@ h5{
     margin-top: -30px;
 }
 #bal_kepek{
-    width: 70%;
+    width: 65%;
+}
+#jobb_kep{
+    float: right;
+    width: 25%;
+}
+#KEPEK{
+    display: flex;
 }
 #kep1{
     background-image:url(Képek/fejlec.jpg) ;
     height: 500px;
-   
+    width: 650px;
     background-position: center center;
     background-size: cover;
+    margin-left: 25px;
+}
+#kep2{
+    background-image: url(Képek/steak.jpg);
+    height: 580px;
     
-    
+    background-size: cover;
+    background-position: center;
 
-    
+}
+#kep3{
+    background-image: url(Képek/mushroom.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 300px;
+    margin-top: 40px;
+    margin-left: 27px;
+}
+#kep4{
+    background-image: url(Képek/pizza.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 300px;
+    float: right;
+    margin-top: -300px;
+    margin-right: 70px;
+}
+#kep5{
+    background-image: url(Képek/leves.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    width: 300px;
+    margin-top: 30px;
+}
+#kep1 p{
+    padding-top: 475px;
+    font-style: italic;
+    font-weight: bold;
+}
+#kep2 p{
+    padding-top: 550px;
+    font-style: italic;
+    font-weight: bold;
+}
+#kep3 p{
+    padding-top: 270px;
+    font-style: italic;
+    font-weight: bold;
+}
+#kep4 p{
+    padding-top: 260px;
+    font-style: italic;
+    font-weight: bold;
+}
+#kep5 p{
+    padding-top: 220px;
+    font-style: italic;
+    font-weight: bold;
 }
 #gomba{
     height: 300px;
     float: left;
     
 }
-
+#lablec{
+    background-color:#101010;
+    clear: both;
+}
