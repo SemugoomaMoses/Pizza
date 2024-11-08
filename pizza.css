@@ -236,6 +236,40 @@ h5{
     
 }
 #lablec{
-    background-color:#101010;
     clear: both;
+    background-color: #101010;
+    margin-top: 80px;
+    height: 1000px;
+    margin-right: -150px;
+}
+#lablec_cim{
+  
+    padding-left: 70px;
+    float: left;
+    margin-left: 500px;
+    width: 0;
+    
+}
+#jobb{
+    float: right;
+    margin-top: 60px;
+    width: 320px;
+    margin-right: 300px;
+
+}
+#kozep{
+    
+    float: left;
+    width: 300px;
+    padding-top: 60px;
+    padding-left: 300px;
+
+}
+#nyitva{
+    text-align: left;
+}
+#kozep p{
+    text-align: left;
+    font-size: 20px;
+
 }
