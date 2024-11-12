@@ -52,7 +52,8 @@ body{
 #szam{
     float: left;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 20px;
+
 }
 #menu{
     background-color: #101010;
@@ -66,9 +67,6 @@ body{
 #szoveg2{
     margin: auto;
     width: 600px;
-}
-#fels{
-    
 }
 
 p{
@@ -244,10 +242,12 @@ h5{
 }
 #lablec_cim{
   
-    padding-left: 70px;
+    padding-left: 200px;
     float: left;
-    margin-left: 500px;
-    width: 0;
+    margin-left: 300px;
+    width: 250px;
+    text-align: right;
+    margin-right: -200px;
     
 }
 #jobb{
@@ -272,4 +272,144 @@ h5{
     text-align: left;
     font-size: 20px;
 
+}
+hr{
+    width: 300px;
+}
+#lablec2{
+    clear: both;
+    text-align: center;
+}
+#lablec2 hr{
+    width: 1400px;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 1,25px;
+    border-right: 0px;
+    border-left: 0px;
+    padding-top: 80px;
+}
+#lablec2 a{
+    
+    color: white;
+}
+#lablec_szöveg{
+    padding-top: 50px;
+}
+
+
+@media (max-width: 1500px) {
+    #KEPEK {
+        display: block;
+    }
+    #bal_kepek, #jobb_kep {
+        width: 100%;
+    }
+    #kep1, #kep2, #kep3, #kep4, #kep5 {
+        width: 100%;
+        height: auto;
+        margin: 10px 0;
+    }
+}
+
+
+@media (max-width: 1200px) {
+    #bal_szoveg, #jobb_szoveg {
+        float: none;
+        margin: auto;
+        padding: 20px;
+    }
+    #fejlec ul {
+        padding-left: 0;
+        text-align: center;
+    }
+    #menu li {
+        padding: 15px 40px;
+    }
+    #lablec_cim {
+        margin-left: 0;
+        width: 100%;
+        text-align: center;
+    }
+    #kozep, #jobb {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    #jobb {
+        margin-top: 20px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    #fejlec {
+        height: auto;
+        padding: 10px;
+        text-align: center;
+    }
+    #fejlec h1 {
+        width: 100%;
+        padding: 10px 0;
+        text-align: center;
+    }
+    #fejlec ul {
+        margin-top: 10px;
+        padding-left: 0;
+    }
+    #fejlec ul li {
+        display: block;
+        margin: 10px 0;
+    }
+    #menu ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #menu li {
+        padding: 10px 20px;
+        margin: 5px 0;
+    }
+    #KEPEK {
+        display: block;
+    }
+    #bal_kepek, #jobb_kep {
+        width: 100%;
+    }
+    #kep1, #kep2, #kep3, #kep4, #kep5 {
+        width: 100%;
+        height: auto;
+        margin: 10px 0;
+    }
+    #kozep, #jobb {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+    #fejlec h1 {
+        font-size: 24px;
+    }
+    #menu li {
+        padding: 5px 10px;
+        font-size: 16px;
+    }
+    h2, h3, h4, h5 {
+        text-align: center;
+    }
+    #kozep p, #jobb p {
+        padding: 5px;
+    }
+    #lablec2 hr {
+        width: 90%;
+    }
+    #lablec_szöveg {
+        padding-top: 20px;
+    }
 }
