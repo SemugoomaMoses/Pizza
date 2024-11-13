@@ -298,6 +298,7 @@ hr{
 }
 
 
+/* Töréspont 1500px alatti - Képek egymás alá kerülnek */
 @media (max-width: 1500px) {
     #KEPEK {
         display: block;
@@ -312,7 +313,7 @@ hr{
     }
 }
 
-
+/* Töréspont 1200px alatti (tablet méret) */
 @media (max-width: 1200px) {
     #bal_szoveg, #jobb_szoveg {
         float: none;
@@ -326,22 +327,30 @@ hr{
     #menu li {
         padding: 15px 40px;
     }
-    #lablec_cim {
-        margin-left: 0;
-        width: 100%;
-        text-align: center;
+
+    /* Lábléc beállításai 1200px alatt */
+    #lablec {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 0;
+        padding: 20px;
     }
-    #kozep, #jobb {
-        float: none;
+    #lablec_cim, #kozep, #jobb {
         width: 100%;
         text-align: center;
+        float: none;
+        margin: 10px 0;
     }
     #jobb {
         margin-top: 20px;
     }
+    #lablec2 hr {
+        width: 90%;
+    }
 }
 
-
+/* Töréspont 768px alatti (mobil méret) */
 @media (max-width: 768px) {
     #fejlec {
         height: auto;
@@ -388,28 +397,158 @@ hr{
     }
 }
 
-
-@media (max-width: 480px) {
-    body {
-        font-size: 14px;
-    }
-    #fejlec h1 {
-        font-size: 24px;
-    }
-    #menu li {
-        padding: 5px 10px;
-        font-size: 16px;
-    }
-    h2, h3, h4, h5 {
+/* Mobil nézet 750px-től */
+@media (max-width: 750px) {
+    #fejlec {
+        height: auto;
+        padding: 10px;
         text-align: center;
     }
-    #kozep p, #jobb p {
-        padding: 5px;
+
+    #fejlec h1 {
+        font-size: 24px;
+        padding: 10px 0;
+        text-align: left; /* Balra igazítva, ha a cím a bal oldalon van */
+    }
+
+    /* Piadina Pizzeria cím igazítása */
+    #piadina-cim {
+        text-align: right; /* Jobbra igazítás */
+        margin: 10px; /* Margó a cím körül */
+    }
+
+    #menu {
+        padding: 30px 0; /* Csökkentett padding */
+    }
+
+    #menu li {
+        display: block;
+        padding: 10px;
+        margin: 5px 0;
+        width: 80%; /* Szélesség beállítása */
+        max-width: 300px; /* Maximális szélesség beállítása */
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center; /* Szöveg középre igazítása */
+    }
+
+    #tortenetunk {
+        padding: 20px;
+    }
+
+    #tortenetunk > div {
+        flex-direction: column;
+        align-items: center;
+        margin: 0; /* Középre igazítás */
+    }
+
+    #bal_szoveg, #jobb_szoveg {
+        width: 90%; /* Szélesség beállítása */
+        margin: 10px 0; /* Margó beállítása */
+        text-align: center; /* Szöveg középre igazítása */
+    }
+
+    #KEPEK {
+        flex-direction: column; /* Képek egymás alá helyezése */
+        align-items: center;
+    }
+
+    #KEPEK div {
+        width: 100%; /* Képek maximális szélessége */
+        max-width: 300px; /* Kép szélesség korlátozása */
+        height: auto; /* Magasság automatikus */
+    }
+
+    #lablec {
+        padding: 10px;
+    }
+}
+
+
+/* 1300px és 1200px közötti szélesség - "Történetünk" rész egymás alá kerül */
+@media (max-width: 1300px) and (min-width: 1200px) {
+    #bal_szoveg, #jobb_szoveg {
+        float: none;
+        margin: auto;
+        width: 80%; /* Igazítás a szöveg méretéhez */
+        text-align: center;
+        padding: 20px 0;
+    }
+    #tortenetunk {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* 1200px alatti tablet nézethez további beállítások */
+@media (max-width: 1200px) {
+    #bal_szoveg, #jobb_szoveg {
+        float: none;
+        margin: auto;
+        padding: 20px;
+    }
+    #fejlec ul {
+        padding-left: 0;
+        text-align: center;
+    }
+    #menu li {
+        padding: 15px 40px;
+    }
+
+    /* Lábléc beállításai 1200px alatt */
+    #lablec {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 0;
+        padding: 20px;
+    }
+    #lablec_cim, #kozep, #jobb {
+        width: 100%;
+        text-align: center;
+        float: none;
+        margin: 10px 0;
+    }
+    #jobb {
+        margin-top: 20px;
     }
     #lablec2 hr {
         width: 90%;
     }
-    #lablec_szöveg {
-        padding-top: 20px;
+}
+/* Lábléc resz igazítása 1200px és 1300px között */
+@media screen and (max-width: 1300px) {
+    #jobb_szoveg {
+        float: none;
+        margin: 0 auto;
+        text-align: left;
+    }
+    #bal_szoveg {
+        float: none;
+        margin: 0 auto;
+        text-align: left;
+    }
+}
+
+/* Lábléc igazítás 1200px alatt */
+@media screen and (max-width: 1200px) {
+    #kozep {
+        width: auto;
+        margin: 0;
+        padding: 0;
+    }
+
+    #kozep p {
+        text-align: left;
+        margin-left: 0;
+    }
+
+    #kozep hr {
+        width: 100%;
+        margin: 5px 0; /* Térköz a szöveg alatt */
+        border: none;
+        border-top: 1px solid white;
+        float: left;
     }
 }
