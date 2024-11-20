@@ -297,3 +297,204 @@ hr{
     padding-top: 50px;
 }
 
+/* Töréspont 1500px alatti - Képek egymás alá kerülnek */
+@media (max-width: 1600px) {
+    #KEPEK {
+        display: block;
+    }
+    #bal_kepek, #jobb_kep {
+        width: 100%;
+    }
+    #kep1, #kep2, #kep3, #kep4, #kep5 {
+        width: 100%;
+        height: auto;
+        margin: 10px 0;
+    }
+}
+ 
+/* Töréspont 1200px alatti (tablet méret) */
+@media (max-width: 1200px) {
+    #bal_szoveg, #jobb_szoveg {
+        float: none;
+        margin: auto;
+        padding: 20px;
+    }
+    #fejlec ul {
+        padding-left: 0;
+        text-align: center;
+    }
+    #menu li {
+        padding: 15px 40px;
+    }
+ 
+    /* Lábléc beállításai 1200px alatt */
+    #lablec {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 0;
+        padding: 20px;
+    }
+    #lablec_cim, #kozep, #jobb {
+        width: 100%;
+        text-align: center;
+        float: none;
+        margin: 10px 0;
+    }
+    #jobb {
+        margin-top: 20px;
+    }
+    #lablec2 hr {
+        width: 90%;
+    }
+}
+ 
+/* Töréspont 768px alatti (mobil méret) */
+@media (max-width: 600px) {
+    #fejlec {
+        height: auto;
+        padding: 10px;
+        text-align: center;
+    }
+    #fejlec h1 {
+        width: 100%;
+        padding: 10px 0;
+        text-align: center;
+    }
+    #fejlec ul {
+        margin-top: 10px;
+        padding-left: 0;
+    }
+    #fejlec ul li {
+        display: block;
+        margin: 10px 0;
+    }
+    #menu ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #menu li {
+        padding: 10px 20px;
+        margin: 5px 0;
+    }
+    #KEPEK {
+        display: block;
+    }
+    #bal_kepek, #jobb_kep {
+        width: 100%;
+    }
+    #kep1, #kep2, #kep3, #kep4, #kep5 {
+        width: 100%;
+        height: auto;
+        margin: 10px 0;
+    }
+    #kozep, #jobb {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    #tortenetunk h2{
+        margin-left: 0px ;
+        padding-right: 0px ;
+        float: right;
+    }
+    #tortenetunk h3{
+        float: right;
+    }
+    #jobb_szoveg p{
+        display: inline;
+        width: 200px;
+    }
+    #szam{
+        float: left;
+    }
+}
+ 
+
+ 
+/* 1300px és 1200px közötti szélesség - "Történetünk" rész egymás alá kerül */
+@media (max-width: 1300px) and (min-width: 1200px) {
+    #bal_szoveg, #jobb_szoveg {
+        float: none;
+        margin: auto;
+        width: 80%; /* Igazítás a szöveg méretéhez */
+        text-align: center;
+        padding: 20px 0;
+    }
+    #tortenetunk {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+ 
+/* 1200px alatti tablet nézethez további beállítások */
+@media (max-width: 1200px) {
+    #bal_szoveg h2{
+        margin-left: 0px;
+        padding-right: 0px;
+        width: 40px;
+        text-align: left;
+        
+
+    }
+    #bal_szoveg h3{
+        margin-left: 0px;
+        padding-right: 0px;
+        text-align: left;
+        padding-left: 130px;
+    }
+    #jobb_szoveg p{
+        text-align: right;
+        margin-top: -130px;
+        padding-left: 400px;
+    }
+    #tortenetunk{
+        text-align: right;
+        
+    }
+    #fejlec ul {
+        padding-left: 0;
+        text-align: center;
+    }
+    #menu li {
+        padding: 15px 40px;
+    }
+}
+ 
+/* Lábléc resz igazítása 1200px és 1300px között */
+@media screen and (max-width: 1300px) {
+    #jobb_szoveg {
+        float: none;
+        margin: 0 auto;
+        text-align: left;
+    }
+    #bal_szoveg {
+        float: none;
+        margin: 0 auto;
+        
+    }
+}
+ 
+/* Lábléc igazítás 1200px alatt */
+@media screen and (max-width: 1200px) {
+    #kozep {
+        width: auto;
+        margin: 0;
+        padding: 0;
+    }
+ 
+    #kozep p {
+        text-align: left;
+        margin-left: 0;
+    }
+ 
+    #kozep hr {
+        width: 100%;
+        margin: 5px 0; /* Térköz a szöveg alatt */
+        border: none;
+        border-top: 1px solid white;
+        float: left;
+    }
+}
