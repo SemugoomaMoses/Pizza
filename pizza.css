@@ -46,6 +46,7 @@ body{
     
 }
 #kiscim{
+    color: rgb(190, 190, 190);
     font-family: "Playfair Display", serif;
     margin-left: 10px;
 }
@@ -125,8 +126,9 @@ h3{
 }
 h4{
     font-weight: bold;
-    font-size: 25px;
+    font-size: 30px;
     margin-bottom: -10px;
+    
     }
 h5{
     font-weight: bold;
@@ -148,7 +150,9 @@ h5{
 
 }
 #speckis{
+    font-size: 20px;
     margin-top: -30px;
+    color: rgb(190, 190, 190);
 }
 #bal_kepek{
     width: 65%;
@@ -250,6 +254,11 @@ h5{
     margin-right: -200px;
     
 }
+#lablec_cim2{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
 #jobb{
     float: right;
     margin-top: 60px;
@@ -296,6 +305,11 @@ hr{
 #lablec_szöveg{
     padding-top: 50px;
 }
+#foglalj{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+}
 
 /* Töréspont 1500px alatti - Képek egymás alá kerülnek */
 @media (max-width: 1600px) {
@@ -335,12 +349,7 @@ hr{
         margin-right: 0;
         padding: 20px;
     }
-    #lablec_cim, #kozep, #jobb {
-        width: 100%;
-        text-align: center;
-        float: none;
-        margin: 10px 0;
-    }
+
     #jobb {
         margin-top: 20px;
     }
@@ -429,13 +438,14 @@ hr{
     }
 }
  
-/* 1200px alatti tablet nézethez további beállítások */
+/* 1200px alatti tablet nézethez további beállítások ITT */
 @media (max-width: 1200px) {
     #bal_szoveg h2{
         margin-left: 0px;
         padding-right: 0px;
         width: 40px;
         text-align: left;
+        padding-left: 200px;
         
 
     }
@@ -443,11 +453,11 @@ hr{
         margin-left: 0px;
         padding-right: 0px;
         text-align: left;
-        padding-left: 130px;
+        padding-left: 220px;
     }
     #jobb_szoveg p{
-        text-align: right;
-        margin-top: -130px;
+        
+        margin-top: -170px;
         padding-left: 400px;
     }
     #tortenetunk{
@@ -460,6 +470,33 @@ hr{
     }
     #menu li {
         padding: 15px 40px;
+    }
+    #szam{
+        
+        margin-top: 170px;
+    }
+    #szoveg2{
+        font-size: 20px;
+        width: 800px;
+    }
+    #menu li{
+        padding: 20px 60px 20px 60px;
+    }
+    #lablec_cim{
+        float: left;
+        margin: 40px 0px 0px 0px;
+        padding-right: 800px;
+        
+    }
+    #kozep{
+        margin-top: -150px;
+        padding-left: 140px;
+    }
+    #jobb{
+        margin-top: -600px;
+        padding-left: 1100px;
+        width: 220px;
+
     }
 }
  
@@ -479,11 +516,7 @@ hr{
  
 /* Lábléc igazítás 1200px alatt */
 @media screen and (max-width: 1200px) {
-    #kozep {
-        width: auto;
-        margin: 0;
-        padding: 0;
-    }
+
  
     #kozep p {
         text-align: left;
