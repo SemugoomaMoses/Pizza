@@ -341,42 +341,19 @@ hr{
         padding: 15px 40px;
     }
  
-    /* Lábléc beállításai 1200px alatt */
-    #lablec {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-right: 0;
-        padding: 20px;
-    }
 
-    #jobb {
-        margin-top: 20px;
-    }
-    #lablec2 hr {
-        width: 90%;
-    }
+
 }
  
 /* Töréspont 768px alatti (mobil méret) */
 @media (max-width: 600px) {
-    #fejlec {
-        height: auto;
-        padding: 10px;
-        text-align: center;
-    }
-    #fejlec h1 {
-        width: 100%;
-        padding: 10px 0;
-        text-align: center;
-    }
-    #fejlec ul {
-        margin-top: 10px;
-        padding-left: 0;
-    }
-    #fejlec ul li {
+    #jobb_szoveg{
         display: block;
-        margin: 10px 0;
+        width: auto;
+    }
+    #tortenetunk h2{
+        width: 100%;
+        text-align: end;
     }
     #menu ul {
         display: flex;
@@ -412,34 +389,41 @@ hr{
         float: right;
     }
     #jobb_szoveg p{
-        display: inline;
-        width: 200px;
+       display: inline;
+        
+        text-align: left;
+        margin: auto;
+        padding-left: 0px;
     }
     #szam{
         float: left;
+        text-align: left;
+        padding-left: 0px;
+        margin-top: 30px;
+    }
+    #szoveg2{
+        display: block;
+        width: 100%;
+    }
+    #menu li{
+       padding-left: 50px;
+       padding-right: 50px;
+       font-size: 20px;
+    }
+    #lablec_cim{
+        padding: 0px;
+        margin: 0px;
+        width: 400px;
+        text-align: end;
     }
 }
  
 
- 
-/* 1300px és 1200px közötti szélesség - "Történetünk" rész egymás alá kerül */
-@media (max-width: 1300px) and (min-width: 1200px) {
-    #bal_szoveg, #jobb_szoveg {
-        float: none;
-        margin: auto;
-        width: 80%; /* Igazítás a szöveg méretéhez */
-        text-align: center;
-        padding: 20px 0;
-    }
-    #tortenetunk {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-}
+
+
  
 /* 1200px alatti tablet nézethez további beállítások ITT */
-@media (max-width: 1200px) {
+@media (max-width: 1300px) and (min-width:610px) {
     #bal_szoveg h2{
         margin-left: 0px;
         padding-right: 0px;
@@ -491,43 +475,40 @@ hr{
     #kozep{
         margin-top: -150px;
         padding-left: 140px;
-    }
-    #jobb{
-        margin-top: -600px;
-        padding-left: 1100px;
-        width: 220px;
-
-    }
-}
- 
-/* Lábléc resz igazítása 1200px és 1300px között */
-@media screen and (max-width: 1300px) {
-    #jobb_szoveg {
-        float: none;
-        margin: 0 auto;
-        text-align: left;
-    }
-    #bal_szoveg {
-        float: none;
-        margin: 0 auto;
         
     }
-}
- 
-/* Lábléc igazítás 1200px alatt */
-@media screen and (max-width: 1200px) {
+    #jobb{
+        margin-top: -670px;
+        padding-left: 1100px;
+        width: 220px;
+        float: right;
 
- 
-    #kozep p {
-        text-align: left;
-        margin-left: 0;
     }
- 
-    #kozep hr {
-        width: 100%;
-        margin: 5px 0; /* Térköz a szöveg alatt */
-        border: none;
-        border-top: 1px solid white;
-        float: left;
+    #lablec2{
+        margin-top: 600px;
+    }
+    #lablec {
+        display: block;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 0;
+        padding: 20px;
+    }
+    #lablec2 hr {
+        width: 90%;
+    }
+    #bal_szoveg, #jobb_szoveg {
+        float: none;
+        margin: auto;
+        width: 80%; /* Igazítás a szöveg méretéhez */
+        text-align: center;
+        padding: 20px 0;
+    }
+    #tortenetunk {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
+}
+ 
