@@ -351,6 +351,9 @@ hr{
         display: block;
         width: auto;
     }
+    #fejlec h1{
+        text-align: inherit;
+    }
     #tortenetunk h2{
         width: 100%;
         text-align: end;
@@ -377,8 +380,9 @@ hr{
     }
     #kozep, #jobb {
         float: none;
-        width: 100%;
-        text-align: center;
+        width: 300px;
+        padding-left: 10px;
+        
     }
     #tortenetunk h2{
         margin-left: 0px ;
@@ -406,8 +410,8 @@ hr{
         width: 100%;
     }
     #menu li{
-       padding-left: 50px;
-       padding-right: 50px;
+       padding-left: 80px;
+       padding-right: 80px;
        font-size: 20px;
     }
     #lablec_cim{
@@ -415,6 +419,48 @@ hr{
         margin: 0px;
         width: 400px;
         text-align: end;
+    }
+    #kozep{
+        padding: 0px;
+        padding-left: 10px;
+    }
+    #nyitva{
+        width: 0px;
+    }
+    #lablec_cim2 p{
+        text-align: left;
+        
+    }
+    #lablec2 hr{
+        
+    }
+    #lablec_szöveg{
+        margin: auto;
+        width: 300px;
+        padding-right: 100px;
+       
+    }
+    #lablec2 p{
+        padding-right: 100px;
+        
+        
+    }
+    #nyitva{
+        padding-top: 80px;
+    }
+    #kozep hr{
+        float: inline-start;
+    }
+    #kiscim{
+        margin-left: 0px;
+        padding-right: 0px;
+        text-align: end;
+        width: 1000px;
+        margin-top: 0px;
+    }
+    #specialitasaink h5{
+        width: 350px;
+        text-align: inherit;
     }
 }
  
@@ -440,7 +486,7 @@ hr{
         padding-left: 220px;
     }
     #jobb_szoveg p{
-        
+        text-align: justify;
         margin-top: -170px;
         padding-left: 400px;
     }
@@ -505,10 +551,10 @@ hr{
         padding: 20px 0;
     }
     #tortenetunk {
-        display: flex;
+      
         flex-direction: column;
         align-items: center;
     }
 }
-}
+
  
