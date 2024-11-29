@@ -12,7 +12,7 @@ body{
     background-image: url(Képek/fejlec.jpg);
     font-family: Arial, Helvetica, sans-serif;
     background-size: cover;
-    height: 650px;
+    height: 800px;
     color: white;
     padding-top: 1px;
     
@@ -351,6 +351,11 @@ hr{
         display: block;
         width: auto;
     }
+    #fejlec{
+        background-size: auto;
+        height: 300px;
+        background-position: 50% 30%;
+    }
     #fejlec h1{
         text-align: inherit;
     }
@@ -479,6 +484,9 @@ hr{
         
 
     }
+    #lablec{
+        width: 100%;
+    }
     #bal_szoveg h3{
         margin-left: 0px;
         padding-right: 0px;
@@ -521,6 +529,7 @@ hr{
     #kozep{
         margin-top: -150px;
         padding-left: 140px;
+        margin: auto;
         
     }
     #jobb{
@@ -528,6 +537,7 @@ hr{
         padding-left: 1100px;
         width: 220px;
         float: right;
+        margin-right: 0px;
 
     }
     #lablec2{
@@ -554,6 +564,10 @@ hr{
       
         flex-direction: column;
         align-items: center;
+    }
+    #lablec h1{
+        padding-right: 0px;
+        padding-left: 0px;
     }
 }
 
