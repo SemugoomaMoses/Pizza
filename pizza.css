@@ -242,11 +242,11 @@ h5{
     background-color: #101010;
     margin-top: 80px;
     height: 1000px;
-    margin-right: -150px;
+    
 }
 #lablec_cim{
   
-    padding-left: 200px;
+    padding-left: 100px;
     float: left;
     margin-left: 300px;
     width: 250px;
@@ -263,7 +263,7 @@ h5{
     float: right;
     margin-top: 60px;
     width: 320px;
-    margin-right: 300px;
+    margin-right: 350px;
 
 }
 #kozep{
@@ -310,6 +310,9 @@ hr{
     font-weight: bold;
     text-decoration: underline;
 }
+
+
+
 
 /* Töréspont 1500px alatti - Képek egymás alá kerülnek */
 @media (max-width: 1600px) {
@@ -437,7 +440,7 @@ hr{
         
     }
     #lablec2 hr{
-        
+        width: auto;
     }
     #lablec_szöveg{
         margin: auto;
