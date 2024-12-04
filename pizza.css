@@ -33,12 +33,12 @@ body{
 #bal_szoveg{
     float: left;
     display: inline;
-    margin-left: 700px;
+    margin-left: 600px;
 }
 #jobb_szoveg{
     float: right;
     display: inline;
-    margin-left: 900px;
+    margin-left: 800px;
     margin-top: -130px;
     margin-right: 400px;
     font-size: 20px;
@@ -314,20 +314,7 @@ hr{
 
 
 
-/* Töréspont 1500px alatti - Képek egymás alá kerülnek */
-@media (max-width: 1600px) {
-    #KEPEK {
-        display: block;
-    }
-    #bal_kepek, #jobb_kep {
-        width: 100%;
-    }
-    #kep1, #kep2, #kep3, #kep4, #kep5 {
-        width: 100%;
-        height: auto;
-        margin: 10px 0;
-    }
-}
+
  
 /* Töréspont 1200px alatti (tablet méret) */
 @media (max-width: 1200px) {
@@ -427,6 +414,7 @@ hr{
         margin: 0px;
         width: 400px;
         text-align: end;
+        font-size: 30px;
     }
     #kozep{
         padding: 0px;
@@ -520,6 +508,28 @@ hr{
         font-size: 20px;
         width: 800px;
     }
+    #KEPEK{
+        display: flex;
+    }
+    #kep1{
+        margin: 0px;
+        width: 100%;
+    }
+    #kep2{
+        margin-left: 20px;
+        width: 300px;
+    }
+    #kep3{
+        margin-left: 0px;
+        width: 50%;
+    }
+    #kep4{
+        margin-right: 0px;
+        width: 40%;
+    }
+    #kep5{
+        margin-left: 30px;
+    }
     #menu li{
         padding: 20px 60px 20px 60px;
     }
@@ -531,16 +541,17 @@ hr{
     }
     #kozep{
         margin-top: -150px;
-        padding-left: 140px;
+        padding-left: 100px;
         margin: auto;
         
     }
     #jobb{
         margin-top: -670px;
-        padding-left: 1100px;
+        margin-left: 1100px;
         width: 220px;
         float: right;
         margin-right: 0px;
+        padding-right: 100px;
 
     }
     #lablec2{
@@ -571,6 +582,7 @@ hr{
     #lablec h1{
         padding-right: 0px;
         padding-left: 0px;
+        margin-left: 180px;
     }
 }
 
