@@ -42,7 +42,7 @@ body{
     margin-top: -130px;
     margin-right: 400px;
     font-size: 20px;
-    margin-right: 300px;
+    margin-right: 400px;
     
 }
 #kiscim{
@@ -67,7 +67,8 @@ body{
 }
 #szoveg2{
     margin: auto;
-    width: 600px;
+    width: 800px;
+    font-size: 20px;
 }
 
 p{
@@ -76,16 +77,21 @@ p{
 #fejlec li{
     list-style-type: none;
     display: inline;
-    
+    font-size: 20px;
     
 }
 #fejlec a{
     color: white;
     text-decoration: none;
 }
+#alcim{
+    color: rgb(190, 190, 190);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
 #fejlec ul{
     margin-top: 78px;
-    padding-left: 1400px;
+    padding-left: 1300px;
 }
 #menu ul{
     margin-top: 50px;
@@ -107,6 +113,7 @@ h1{
     float: left;
     font-weight: 100;
     text-align: right;
+    font-size: 40px;
 }
 h2{
     font-family: Arial, Helvetica, sans-serif;
@@ -433,14 +440,10 @@ hr{
     #lablec_szöveg{
         margin: auto;
         width: 300px;
-        padding-right: 100px;
+        
        
     }
-    #lablec2 p{
-        padding-right: 100px;
-        
-        
-    }
+
     #nyitva{
         padding-top: 80px;
     }
@@ -488,6 +491,7 @@ hr{
         text-align: justify;
         margin-top: -170px;
         padding-left: 400px;
+        padding-right: 70px;
     }
     #tortenetunk{
         text-align: right;
@@ -537,6 +541,7 @@ hr{
         float: left;
         margin: 40px 0px 0px 0px;
         padding-right: 800px;
+        margin-left: 0px;
         
     }
     #kozep{
@@ -544,6 +549,9 @@ hr{
         padding-left: 100px;
         margin: auto;
         
+    }
+    #fejlec{
+        height: 500px;
     }
     #jobb{
         margin-top: -670px;
@@ -575,14 +583,15 @@ hr{
         padding: 20px 0;
     }
     #tortenetunk {
-      
+        padding-bottom: 0px;
         flex-direction: column;
         align-items: center;
     }
     #lablec h1{
+        margin-left: 0px;
         padding-right: 0px;
         padding-left: 0px;
-        margin-left: 180px;
+        margin-left: 0px;
     }
 }
 
