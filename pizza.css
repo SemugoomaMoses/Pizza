@@ -4,10 +4,10 @@ body{
     background-color: #282424;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-
-
+ 
+ 
 }
-
+ 
 #fejlec{
     background-image: url(Képek/fejlec.jpg);
     font-family: Arial, Helvetica, sans-serif;
@@ -15,7 +15,13 @@ body{
     height: 800px;
     color: white;
     padding-top: 1px;
-    
+ 
+   
+}
+#alcim{
+    color: rgb(190, 190, 190);
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
 }
  #kezd{
     font-weight: bold;
@@ -26,9 +32,9 @@ body{
     padding-bottom: 280px;
     font-size: 20px;
     padding-top: 40px;
-
-    
-    
+ 
+   
+   
 }
 #bal_szoveg{
     float: left;
@@ -42,8 +48,8 @@ body{
     margin-top: -130px;
     margin-right: 400px;
     font-size: 20px;
-    margin-right: 400px;
     
+   
 }
 #kiscim{
     color: rgb(190, 190, 190);
@@ -54,7 +60,7 @@ body{
     float: left;
     font-weight: bold;
     font-size: 20px;
-
+ 
 }
 #menu{
     background-color: #101010;
@@ -62,7 +68,7 @@ body{
     clear: both;
     text-align: center;
     padding-bottom: 60px;
-    
+   
    
 }
 #szoveg2{
@@ -70,28 +76,23 @@ body{
     width: 800px;
     font-size: 20px;
 }
-
+ 
 p{
     font-family: "Roboto", sans-serif;
 }
 #fejlec li{
     list-style-type: none;
     display: inline;
-    font-size: 20px;
-    
+   
+   
 }
 #fejlec a{
     color: white;
     text-decoration: none;
 }
-#alcim{
-    color: rgb(190, 190, 190);
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
-}
 #fejlec ul{
     margin-top: 78px;
-    padding-left: 1300px;
+    padding-left: 1400px;
 }
 #menu ul{
     margin-top: 50px;
@@ -104,7 +105,7 @@ p{
     width: 50px;
     margin-top: 50px;
     margin: 20px;
-
+ 
 }
 h1{
     width: 200px;
@@ -113,7 +114,6 @@ h1{
     float: left;
     font-weight: 100;
     text-align: right;
-    font-size: 40px;
 }
 h2{
     font-family: Arial, Helvetica, sans-serif;
@@ -122,7 +122,7 @@ h2{
     padding-right: 940px;
     width: 300px;
     font-weight: bold;
-    
+   
 }
 h3{
     margin-left: -40px;
@@ -135,7 +135,7 @@ h4{
     font-weight: bold;
     font-size: 30px;
     margin-bottom: -10px;
-    
+   
     }
 h5{
     font-weight: bold;
@@ -146,7 +146,7 @@ h5{
     clear: both;
     width: 65%;
     margin: auto;
-    
+   
 }
 #szöveg{
     padding-top: 30px;
@@ -154,7 +154,7 @@ h5{
 #specialitasaink p{
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
-
+ 
 }
 #speckis{
     font-size: 20px;
@@ -182,10 +182,10 @@ h5{
 #kep2{
     background-image: url(Képek/steak.jpg);
     height: 580px;
-    
+   
     background-size: cover;
     background-position: center;
-
+ 
 }
 #kep3{
     background-image: url(Képek/mushroom.jpg);
@@ -242,24 +242,24 @@ h5{
 #gomba{
     height: 300px;
     float: left;
-    
+   
 }
 #lablec{
     clear: both;
     background-color: #101010;
     margin-top: 80px;
     height: 1000px;
-    
+   
 }
 #lablec_cim{
-  
+ 
     padding-left: 100px;
     float: left;
     margin-left: 300px;
     width: 250px;
     text-align: right;
     margin-right: -200px;
-    
+   
 }
 #lablec_cim2{
     color: white;
@@ -271,15 +271,15 @@ h5{
     margin-top: 60px;
     width: 320px;
     margin-right: 350px;
-
+ 
 }
 #kozep{
-    
+   
     float: left;
     width: 300px;
     padding-top: 60px;
     padding-left: 300px;
-
+ 
 }
 #nyitva{
     text-align: left;
@@ -287,7 +287,7 @@ h5{
 #kozep p{
     text-align: left;
     font-size: 20px;
-
+ 
 }
 hr{
     width: 300px;
@@ -297,7 +297,7 @@ hr{
     text-align: center;
 }
 #lablec2 hr{
-    width: 1400px;
+    width: 1200px;
     border-top: 0px;
     border-right: 0px;
     border-bottom: 1,25px;
@@ -306,7 +306,7 @@ hr{
     padding-top: 80px;
 }
 #lablec2 a{
-    
+   
     color: white;
 }
 #lablec_szöveg{
@@ -317,11 +317,11 @@ hr{
     font-weight: bold;
     text-decoration: underline;
 }
-
-
-
-
-
+ 
+ 
+ 
+ 
+ 
  
 /* Töréspont 1200px alatti (tablet méret) */
 @media (max-width: 1200px) {
@@ -338,10 +338,9 @@ hr{
         padding: 15px 40px;
     }
  
-
-
+ 
+ 
 }
-
  
 /* Töréspont 768px alatti (mobil méret) */
 @media (max-width: 600px) {
@@ -385,7 +384,7 @@ hr{
         float: none;
         width: 300px;
         padding-left: 10px;
-        
+       
     }
     #tortenetunk h2{
         margin-left: 0px ;
@@ -397,7 +396,7 @@ hr{
     }
     #jobb_szoveg p{
        display: inline;
-        
+       
         text-align: left;
         margin: auto;
         padding-left: 0px;
@@ -433,7 +432,7 @@ hr{
     }
     #lablec_cim2 p{
         text-align: left;
-        
+       
     }
     #lablec2 hr{
         width: auto;
@@ -441,10 +440,14 @@ hr{
     #lablec_szöveg{
         margin: auto;
         width: 300px;
-        
+        padding-right: 100px;
        
     }
-
+    #lablec2 p{
+        padding-right: 100px;
+       
+       
+    }
     #nyitva{
         padding-top: 80px;
     }
@@ -462,12 +465,11 @@ hr{
         width: 350px;
         text-align: inherit;
     }
-
 }
  
-
-
-
+ 
+ 
+ 
  
 /* 1200px alatti tablet nézethez további beállítások ITT */
 @media (max-width: 1300px) and (min-width:610px) {
@@ -477,8 +479,8 @@ hr{
         width: 40px;
         text-align: left;
         padding-left: 200px;
-        
-
+       
+ 
     }
     #lablec{
         width: 100%;
@@ -491,13 +493,12 @@ hr{
     }
     #jobb_szoveg p{
         text-align: justify;
-        margin-top: -120px;
+        margin-top: -170px;
         padding-left: 400px;
-        padding-right: 70px;
     }
     #tortenetunk{
         text-align: right;
-        
+       
     }
     #fejlec ul {
         padding-left: 0;
@@ -507,8 +508,8 @@ hr{
         padding: 15px 40px;
     }
     #szam{
-        
-        margin-top: 120px;
+       
+        margin-top: 170px;
     }
     #szoveg2{
         font-size: 20px;
@@ -543,17 +544,13 @@ hr{
         float: left;
         margin: 40px 0px 0px 0px;
         padding-right: 800px;
-        margin-left: 0px;
-        
+       
     }
     #kozep{
         margin-top: -150px;
         padding-left: 100px;
         margin: auto;
-        
-    }
-    #fejlec{
-        height: 500px;
+       
     }
     #jobb{
         margin-top: -670px;
@@ -562,7 +559,7 @@ hr{
         float: right;
         margin-right: 0px;
         padding-right: 100px;
-
+ 
     }
     #lablec2{
         margin-top: 600px;
@@ -572,7 +569,7 @@ hr{
         flex-direction: column;
         align-items: center;
         margin-right: 0;
-        
+        padding: 20px;
     }
     #lablec2 hr {
         width: 90%;
@@ -585,16 +582,14 @@ hr{
         padding: 20px 0;
     }
     #tortenetunk {
-        padding-bottom: 0px;
+     
         flex-direction: column;
         align-items: center;
     }
     #lablec h1{
-        margin-left: 0px;
         padding-right: 0px;
         padding-left: 0px;
-        margin-left: 0px;
+        margin-left: 180px;
     }
 }
-
  
