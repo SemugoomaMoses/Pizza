@@ -62,9 +62,9 @@ body{
     font-size: 20px;
  
 }
-#menu{
-    background-color: #101010;
-    color: white;
+#fejlec4{
+    float: right;
+  
     clear: both;
     text-align: center;
     padding-bottom: 60px;
@@ -87,12 +87,25 @@ p{
    
 }
 #fejlec a{
-    color: white;
+
     text-decoration: none;
 }
 #fejlec ul{
     margin-top: 78px;
     padding-left: 1400px;
+}
+#szöveg h4{
+    text-align: center;
+    margin: auto;
+}
+#menu{
+    background-color: #101010;
+    color: white;
+    clear: both;
+    text-align: center;
+    padding-bottom: 60px;
+   
+   
 }
 #menu ul{
     margin-top: 50px;
@@ -317,6 +330,13 @@ hr{
     font-weight: bold;
     text-decoration: underline;
 }
+a.closebtn, button.openbtn, #fejlec hr{
+    visibility: hidden;
+}
+span{
+    padding: 0px 10px;
+}
+
  
  
  
@@ -355,6 +375,9 @@ hr{
     }
     #fejlec h1{
         text-align: inherit;
+    }
+    #tortenetunk{
+        padding-bottom: 200px;
     }
     #tortenetunk h2{
         width: 100%;
@@ -440,14 +463,12 @@ hr{
     #lablec_szöveg{
         margin: auto;
         width: 300px;
-        padding-right: 100px;
+
        
     }
-    #lablec2 p{
-        padding-right: 100px;
-       
-       
-    }
+#lablec{
+    padding-left: 20px;
+}
     #nyitva{
         padding-top: 80px;
     }
@@ -465,6 +486,58 @@ hr{
         width: 350px;
         text-align: inherit;
     }
+    .sidepanel  {
+        max-width: 80%;
+        position: fixed;
+        z-index: 1;
+        height: 100%;
+        top: 0;
+        right: 0;
+        background-color: white;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+      }
+     
+      .sidepanel a {
+        padding: 8px 8px 8px 50px;
+        text-decoration: none;
+        font-size: 20px;
+        color: black;
+        display: block;
+        transition: 0.3s;
+      }
+     
+      .sidepanel a:hover {
+        color: #888787;
+      }
+     
+      .sidepanel .closebtn {
+        position: absolute;
+        top: 15px;
+        right: 30px;
+        font-size: 36px;
+      }
+     
+      .openbtn {
+        font-size: 20px;
+        cursor: pointer;
+        background-color: #161616;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+      }
+     
+      .openbtn:hover {
+        background-color:#444;
+      }
+      a.closebtn, button.openbtn{
+        visibility: visible;
+      }
+      span{
+
+        visibility: hidden;
+      }
 }
  
  
@@ -472,7 +545,7 @@ hr{
  
  
 /* 1200px alatti tablet nézethez további beállítások ITT */
-@media (max-width: 1300px) and (min-width:610px) {
+@media (max-width: 1650px) and (min-width:610px) {
     #bal_szoveg h2{
         margin-left: 0px;
         padding-right: 0px;
@@ -485,6 +558,10 @@ hr{
     #lablec{
         width: 100%;
     }
+    span{
+
+        visibility: hidden;
+      }
     #bal_szoveg h3{
         margin-left: 0px;
         padding-right: 0px;
@@ -518,6 +595,54 @@ hr{
     #KEPEK{
         display: flex;
     }
+    .sidepanel  {
+        max-width: 80%;
+        position: fixed;
+        z-index: 1;
+        height: 100%;
+        top: 0;
+        right: 0;
+        background-color: white;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+      }
+     
+      .sidepanel a {
+        padding: 8px 8px 8px 50px;
+        text-decoration: none;
+        font-size: 20px;
+        color: black;
+        display: block;
+        transition: 0.3s;
+      }
+     
+      .sidepanel a:hover {
+        color: #888787;
+      }
+     
+      .sidepanel .closebtn {
+        position: absolute;
+        top: 15px;
+        right: 30px;
+        font-size: 36px;
+      }
+     
+      .openbtn {
+        font-size: 20px;
+        cursor: pointer;
+        background-color: #161616;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+      }
+     
+      .openbtn:hover {
+        background-color:#444;
+      }
+      a.closebtn, button.openbtn{
+        visibility: visible;
+      }
     #kep1{
         margin: 0px;
         width: 100%;

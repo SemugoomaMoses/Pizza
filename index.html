@@ -9,14 +9,18 @@
 </head>
 <body>
     <div id="fejlec">
-        <h1 >PIZZÉRIA</h1>
-        <ul>
-            <li id="kezd"><a href="#kezdolap">KEZDŐLAP /</a></li>
-            <li><a href="#menu"> MENÜ /</a></li>
-            <li><a href="#rolunk"> RÓLUNK /</a></li>
-            <li><a href="#kapcsolat"> KAPCSOLAT </a></li>
+        <div id="fejlec4">
+            <div id="mySidepanel" class="sidepanel">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="#">KEZDŐLAP<span>/</span></a>
+                <a href="#">MENÜ<span>/</span></a>
+                <a href="#">RÓLUNK<span>/</span></a>
+                <a href="#">KAPCSOLAT</a>
+            </div>
+            <button class="openbtn" onclick="openNav()">&#9776;</button>
            
-        </ul>
+        </div>
+
  
     </div>
     <div id="fokeret">
@@ -97,6 +101,15 @@
  
         </div>
     </div>
-   
+    <script>
+        function openNav() {
+            document.getElementById("mySidepanel").style.width = "100%";
+          }
+         
+          /* Close when someone clicks on the "x" symbol inside the overlay */
+          function closeNav() {
+            document.getElementById("mySidepanel").style.width = "0%";
+          }
+    </script>
 </body>
 </html>
