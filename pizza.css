@@ -394,6 +394,7 @@ span{
     }
     #fejlec h1{
         text-align: inherit;
+        padding: 0px;
     }
     #tortenetunk{
         padding-bottom: 200px;
@@ -406,6 +407,7 @@ span{
         display: flex;
         flex-direction: column;
         align-items: center;
+        padding-left: 0px;
     }
     #menu li {
         padding: 10px 20px;
@@ -468,6 +470,8 @@ span{
     #lablec_cim h1{
         width: 100%;
         padding-left: 0px;
+        font-size: 25px;
+        margin-bottom: 40px;
     }
     #kozep{
         padding: 0px;
@@ -508,8 +512,13 @@ span{
         margin-top: 0px;
     }
     #specialitasaink h5{
-        width: 350px;
+        width: 120%;
         text-align: inherit;
+        font-size: 23px;
+    }
+    #specialitasaink p{
+        width: 100%;
+        font-size: 20px;
     }
     .sidepanel  {
         max-width: 80%;
@@ -543,6 +552,11 @@ span{
         right: 30px;
         font-size: 36px;
       }
+      #fejlec4 {
+        color: #101010;
+        margin-top: -80px;
+        margin-right: 0px;
+      }
       #fejlec4 a{
         color: #101010;
       }
@@ -550,7 +564,7 @@ span{
       .openbtn {
         font-size: 20px;
         cursor: pointer;
-        background-color: #161616;
+        background-color: transparent;
         color: white;
         padding: 10px 15px;
         border: none;
@@ -628,6 +642,9 @@ span{
     #szoveg2{
         font-size: 20px;
         width: 800px;
+    }
+    #kozep hr{
+        width: 100%;
     }
     #KEPEK{
         display: flex;
@@ -713,6 +730,7 @@ span{
         margin-top: -150px;
         padding-left: 100px;
         margin: auto;
+        width: 30%;
        
     }
     #jobb{
