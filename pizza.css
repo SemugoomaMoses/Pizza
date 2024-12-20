@@ -603,11 +603,7 @@ span{
         color: black;
         font-size: 20px;
     }
-    #lablec{
-        width: 100%;
-        padding-left: 0px;
-        padding-right: 0px;
-    }
+
     span{
 
         visibility: hidden;
@@ -723,35 +719,24 @@ span{
         padding: 20px 60px 20px 60px;
     }
     #lablec_cim{
-        float: left;
-        margin: 20px 0px 0px 0px;
         
+        margin: 0px;
        
     }
     #kozep{
-        margin-top: -150px;
-        padding-left: 100px;
-        margin: auto;
-        width: 30%;
+        
        
     }
     #jobb{
-        margin-top: -670px;
-        margin-left: 1100px;
-        width: 220px;
-        float: right;
-        margin-right: 0px;
-        padding-right: 100px;
- 
+        
     }
     #lablec2{
         margin-top: 0px;
     }
     #lablec {
-        display: block;
-        flex-direction: column;
-        align-items: center;
-        margin-right: 0;
+        display: flex;
+       width: 100%;
+       padding-left: 100px;
         
     }
     #lablec2 hr {
