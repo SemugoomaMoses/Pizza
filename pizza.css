@@ -386,7 +386,9 @@ span{
         width: auto;
     }
     #lablec2{
-        margin-top: 0px;
+        margin-top: -250px;
+        background-color: #101010;
+
     }
     #fejlec{
         background-size: auto;
@@ -396,6 +398,8 @@ span{
     #fejlec h1{
         text-align: inherit;
         padding: 0px;
+        padding-left: 30px;
+        font-size: 40px;
     }
     #tortenetunk{
         padding-bottom: 200px;
@@ -460,6 +464,7 @@ span{
        padding-left: 80px;
        padding-right: 80px;
        font-size: 20px;
+       margin-bottom: 30px;
     }
     #lablec_cim{
         padding: 0px;
@@ -491,12 +496,14 @@ span{
     #lablec_szöveg{
         margin: auto;
         width: 300px;
+        padding-top: 20px;
 
        
     }
 #lablec{
     padding-left: 20px;
     display: block;
+    height: 1300px;
     
 }
     #nyitva{
@@ -525,7 +532,7 @@ span{
         width: 90%;
     }
     .sidepanel  {
-        max-width: 80%;
+        max-width: 50%;
         position: fixed;
         z-index: 1;
         height: 100%;
@@ -566,7 +573,7 @@ span{
       }
      
       .openbtn {
-        font-size: 20px;
+        font-size: 40px;
         cursor: pointer;
         background-color: transparent;
         color: white;
@@ -591,7 +598,7 @@ span{
  
  
 /* 1200px alatti tablet nézethez további beállítások ITT */
-@media (max-width: 1525px) and (min-width:768px) {
+@media (max-width: 1526px) and (min-width:768px) {
     #bal_szoveg h2{
         margin-left: 0px;
         padding-right: 0px;
@@ -621,7 +628,7 @@ span{
         text-align: justify;
         margin-top: -150px;
         padding-left: 400px;
-        
+        margin-right: 40px;
     }
     #tortenetunk{
         text-align: right;
@@ -683,7 +690,7 @@ span{
       }
      
       .openbtn {
-        font-size: 20px;
+        font-size: 40px;
         cursor: pointer;
         background-color: transparent;
         color: white;
@@ -735,6 +742,8 @@ span{
     }
     #lablec2{
         margin-top: 0px;
+        background-color: #101010;
+        margin-top: -160px;
     }
     #lablec {
         display: flex;
@@ -752,6 +761,9 @@ span{
         text-align: center;
         padding: 20px 0;
     }
+    #lablec_szöveg{
+        padding-top: 30px;
+    }
     #tortenetunk {
      
         flex-direction: column;
@@ -761,6 +773,13 @@ span{
         padding-right: 0px;
         padding-left: 0px;
        
+    }
+    #fejlec4{
+        margin-top: -100px;
+        margin-right: 20px;
+    }
+    #lablec2 p{
+        padding-bottom: 30px;
     }
 }
  
