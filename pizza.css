@@ -521,12 +521,13 @@ span{
     }
     #specialitasaink h5{
         padding-left: 40px;
-        text-align: inherit;
+        text-align: center;
         font-size: 23px;
     }
     #specialitasaink p{
         width: 100%;
         font-size: 20px;
+        padding-left: 20px;
     }
     #specialitasaink{
         width: 90%;
@@ -655,6 +656,7 @@ span{
     }
     #KEPEK{
         display: flex;
+        width: 100%;
     }
     .sidepanel  {
         max-width: 30%;
@@ -711,7 +713,7 @@ span{
     }
     #kep2{
         margin-left: 20px;
-        width: 250px;
+       
     }
     #kep3{
         margin-left: 0px;
@@ -723,7 +725,7 @@ span{
     }
     #kep5{
         margin-left: 20px;
-        width: 250px;
+        
     }
     #menu li{
         padding: 20px 60px 20px 60px;
@@ -734,11 +736,15 @@ span{
        
     }
     #kozep{
-        
+        padding-left: 0px;
        
     }
-    #jobb{
-        
+    #jobb_kep{
+        width: auto;
+    }
+    #specialitasaink{
+        width: auto;
+        margin-left: 30px;
     }
     #lablec2{
         margin-top: 0px;
