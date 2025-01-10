@@ -628,7 +628,7 @@ span{
         text-align: justify;
         margin-top: -150px;
         padding-left: 400px;
-        margin-right: 40px;
+        margin-right: 120px;
     }
     #tortenetunk{
         text-align: right;
@@ -772,6 +772,7 @@ span{
     #lablec h1{
         padding-right: 0px;
         padding-left: 0px;
+        width: 90%;
        
     }
     #fejlec4{
